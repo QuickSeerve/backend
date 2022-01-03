@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Restful APIs for the WebApp Quickseerve",
+  "main": "Server.js",
+  "scripts": {
+    "test": "test My Server",
+    "start": "node Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.github.com/Sammysoft/quickservee-backend"
+  },
+  "keywords": [
+    "Serve"
+  ],
+  "author": "Samuel Dare-Owonibi",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.2"
+  }
+}
